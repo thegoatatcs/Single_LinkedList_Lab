@@ -38,6 +38,15 @@ class LinkedList{
             head = h;
         }
         Airport * get(int i);
+        void insert(int ind, Airport * value);
+        void exchg(int ind1, int ind2);
+        void swap(int ind1, int ind2);
+        bool isEmpty();
+        void remove(int ind1);
+        void set(int ind, Airport *value);
+        int size();
+        LinkedList sublist(int start, int length);
+        string toString();
 };
 
 #endif
